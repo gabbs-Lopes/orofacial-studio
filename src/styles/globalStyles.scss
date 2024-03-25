@@ -1,6 +1,32 @@
 * {
   margin: 0;
-  border: 0;
+  padding: 0;
+  box-sizing: border-box; /* Faz com que o padding e border sejam considerados no cálculo do tamanho do elemento */
+}
+
+/* Tipografia */
+html {
+  font-family: Arial, sans-serif;
+}
+
+/* Listas */
+ul, ol {
+  list-style: none; /* Remove os marcadores de lista padrão */
+}
+
+/* Links */
+a {
+  text-decoration: none; /* Remove sublinhado padrão */
+  color: inherit; /* Herda a cor do texto do elemento pai */
+}
+
+/* Elementos de formulário */
+button, input, select, textarea {
+  font-family: inherit; /* Herda a fonte do elemento pai */
+}
+
+button {
+  cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima de botões */
 }
 
 body {
@@ -15,4 +41,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  height: 150vh;
 }
