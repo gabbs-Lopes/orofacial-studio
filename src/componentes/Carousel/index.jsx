@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectFade } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, Autoplay, EffectFade } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,7 +9,6 @@ import 'swiper/css/autoplay';
 
 import styles from './Carousel.module.scss'; // Estilo CSS para o carrossel
 
-import images from './imagens.json'
 import img1 from 'assets/imgBanner/imgOro1.jpg'
 import img2 from 'assets/imgBanner/imgOro2.jpg'
 import img3 from 'assets/imgBanner/imgOro3.jpg'

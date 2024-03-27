@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './NavBar.modules.scss'
+import './NavBar.modules.scss'
 import { Link } from 'react-router-dom'
 
 import logo from 'assets/logo/logoOrofacial.png'
@@ -18,7 +18,7 @@ export default function NavBar() {
       </div>
       <Menu />
       <div>
-        <Link to='/'>
+        <Link target="_blank" to='https://www.youtube.com/results?search_query=orofacial+studio'>
           <h4>Canal do Youtube</h4>
         </Link>
       </div>

@@ -1,4 +1,4 @@
-
+@import '../../styles/variaveis';
 
 .menu {
     display: flex; 
@@ -6,5 +6,24 @@
 
     a {
         font-size: 17px;
+        position: relative;
+        padding: 0 5px 0 7px;
+    }
+
+    .link-menu:after {
+        content: "";
+        position: absolute;
+        background-color: $hoverMenu;
+        height: 2px;
+        width: 0;
+        left: 5px;
+        bottom: -3px;
+        transition: 0.2s;
+    
+        border-radius: 1px;
+    }
+
+    .link-menu:hover::after {
+        width: 90%;
     }
 }
