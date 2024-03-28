@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './BannerHome.modules.scss'
-import NavBar from 'componentes/NavBar'
+import './BannerHome.modules.scss'
 import Carousel from 'componentes/Carousel'
+import NavBarHome from 'componentes/NavBarHome'
 
 export default function BannerHome() {
   return (
     <section className="banner">
-      <NavBar />
+      <NavBarHome />
       <Carousel />
     </section>
   )

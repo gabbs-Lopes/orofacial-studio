@@ -1,11 +1,16 @@
 @import '../../styles/variaveis';
 
 .menu {
+    /* background-color: white; */
     display: flex; 
-    gap: 20px;
+    justify-content: space-evenly;
+    width: 38%;
+    min-width: 360px;
 
     a {
-        font-size: 17px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
         position: relative;
         padding: 0 5px 0 7px;
     }
@@ -17,7 +22,7 @@
         height: 2px;
         width: 0;
         left: 5px;
-        bottom: -3px;
+        bottom: -1px;
         transition: 0.2s;
     
         border-radius: 1px;

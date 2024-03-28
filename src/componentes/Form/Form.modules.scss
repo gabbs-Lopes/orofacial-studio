@@ -1,0 +1,75 @@
+@import '../../styles/variaveis';
+
+
+.form {
+    width: 100%;
+    /* background-color: antiquewhite; */
+    /* padding-right: 2em; */
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+    }
+
+    #tel, #email, #nome, #message {
+        background-color: rgba(128, 128, 128, 0.315);
+        border-radius: 5px;
+        border: none;        
+
+        padding: .4rem 1em;
+        font-size: 16px;
+    }
+
+    #tel:focus, #email:focus, #nome:focus {
+        outline: 1px solid blue;
+    }
+
+    
+    &__two {
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+
+        margin: 1em 0;
+
+        &-email {            
+            width: 60%;
+        }
+
+        &-tel {
+            width: 40%;
+        }
+
+        /* #email {
+            width: 60%;
+        } */
+    }
+
+    &__btn {
+        background: linear-gradient(to right, $dourado1, $dourado2, $dourado3/* , $douradoPescoco */);
+        color: black;
+        font-family: $fontePrincipal;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .2px;
+        
+        border: 2px solid $preto;
+        border-radius: 20px;
+
+        padding: .4rem 2rem;
+        margin-top: 1rem;
+        text-align: end;
+    }
+}
+
+.Collum {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
